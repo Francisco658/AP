@@ -29,8 +29,7 @@ def write_to_file(text, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(text)
 
-# Example usage
-pdf_path = 'src\Leis\Código Penal.pdf'  # Path to your PDF file
-output_file = 'extracted_text_tesseract.txt'  # Path to the output text file
+pdf_path = ''
+output_file = ''
 extracted_text = text_from_pdf(pdf_path)
 write_to_file(extracted_text, output_file)
