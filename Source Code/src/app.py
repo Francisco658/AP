@@ -84,7 +84,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "-p",
         "--path",
-        default="../Final PDF Files",
+        default="../PDF Temporal",
         help="The path to the directory containing documents to load.",
     )
     return parser.parse_args()
