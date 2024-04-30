@@ -15,6 +15,6 @@ def convert_to_lowercase(file_path):
         return f"An error occurred: {str(e)}"
 
 # Example usage:
-file_path = "../TXT Files/Training_Muscles.txt"
+file_path = "../TXT Files/Rest_Time_2.txt"
 result = convert_to_lowercase(file_path)
 print(result)
