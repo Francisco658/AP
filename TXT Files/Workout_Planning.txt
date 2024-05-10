@@ -1,0 +1,79 @@
+divisões para organização de treino de musculação
+
+o treino de musculação pode ter várias divisões para rotinas diferentes.
+
+treino ab
+esse tipo de treino divide os músculos em dois grupos: inferiores e superiores. então o aluno treina revezando inferiores e superiores a cada dia. treinando cada grupo de músculos duas ou três vezes na semana.
+
+opção 1:
+segunda: inferiores (a)
+terça: superiores (b)
+quarta: descanso
+quinta: inferiores (a)
+sexta: superiores (b)
+sábado e domingo: descanso
+
+opção 2:
+segunda: inferiores (a)
+terça: superiores (b)
+quarta: inferiores (a)
+quinta: superiores (b)
+sexta: inferiores (a)
+sábado: superiores (b)
+domingo: descanso
+
+treino abc
+neste treino abc, é feita a divisão de três grupos musculares. e cada grupo é trabalhado 1 ou 2 vezes na semana.
+existem várias combinações de grupos musculares que podem ser exercitados por dia, como por exemplo:
+a: peito, tríceps e ombros; b: costas e bíceps; c: treino inferior;
+a: costas, bíceps e ombros; b: coxa, glúteos e lombar; c: peito, tríceps e abdômen;
+a: peito e tríceps; b: costas e bíceps; c: pernas e ombros;
+a: peito e costas; b: bíceps e tríceps; c perna e ombros.
+
+opção 1:
+segunda: peito, tríceps e ombros (a)
+terça: descanso
+quarta: pernas (b)
+quinta: descanso
+sexta: costas, bíceps e trapézio (c)
+sábado e domingo: descanso
+
+opção 2:
+segunda: peito, tríceps e ombros (a)
+terça: costas, bíceps e trapézio (b)
+quarta: pernas (c)
+quinta: peito, tríceps e ombros (a)
+sexta: costas, bíceps e trapézio (b)
+sábado: pernas (c)
+domingo: descanso
+
+treino abcd
+neste tipo de treino, a divisão é feita em quatro grupos musculares. e cada grupo muscular vai ser exercitado uma vez por semana.
+
+opção:
+segunda: costas e trapézio (a)
+terça: peitoral e ombros (b)
+quarta: descanso
+quinta: pernas completas (c)
+sexta: tríceps, bíceps e antebraços (d)
+sábado e domingo: descanso
+
+treino abcde
+neste treino abcde, a divisão é feita em cinco grupos musculares. e cada um desses grupos serão exercitados uma vez por semana.
+
+opção 1:
+segunda: tríceps, bíceps e abdômen (a)
+terça: pernas completas (b);
+quarta: ombros, trapézio e abdômen (c);
+quinta: costas e panturrilha (d);
+sexta: peito e abdômen (e)
+sábado e domingo: descanso
+
+opção 2:
+segunda: tríceps, bíceps e abdômen (a)
+terça: pernas completas (b);
+quarta: ombros, trapézio e abdômen (c);
+quinta: descanso
+sexta: costas e panturrilha (d);
+sábado: peito e abdômen (e)
+domingo: descanso
