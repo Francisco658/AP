@@ -112,23 +112,15 @@ def write_to_file(text, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(text)
   
-#pdf_path1 = '../PDF Files/Treinar_Musculos.pdf'
-#pdf_path2 = '../PDF Files/Guia_Treino.pdf'
-#pdf_path3 = '../PDF Files/Musculacao.pdf'
-#pdf_path4 = '../PDF Files/Tecnicas_Avancadas.pdf'
-#pdf_path5 = '../PDF Files/Scient_Muscular.pdf'
-#output_file1 = '../TXT Files/treinar_musculos.txt'
-#output_file2 = '../TXT Files/guia_treino.txt'
-#output_file3 = '../TXT Files/musculacao.txt'
-#output_file4 = '../TXT Files/tecnicas_avancadas.txt'
-#output_file5 = '../TXT Files/Scient_Muscular.txt'
-#extracted_text1 = text_from_pdf_with_pdfplumber1(pdf_path1)
-#extracted_text2 = text_from_pdf_with_pdfplumber2(pdf_path2)
-#extracted_text3 = text_from_pdf_with_pdfplumber3(pdf_path3)
-#extracted_text4 = text_from_pdf_with_pdfplumber4(pdf_path4)
-#extracted_text5 = text_from_pdf_with_pdfplumber5(pdf_path5)
-#write_to_file(extracted_text1, output_file1)
-#write_to_file(extracted_text2, output_file2)
-#write_to_file(extracted_text3,output_file3)
-#write_to_file(extracted_text4,output_file4)
-#write_to_file(extracted_text5,output_file5)
+#pdf_path = ''
+#output_file = '../TXT Files/'
+#extracted_text1 = text_from_pdf_with_pdfplumber1(pdf_path)
+#extracted_text2 = text_from_pdf_with_pdfplumber2(pdf_path)
+#extracted_text3 = text_from_pdf_with_pdfplumber3(pdf_path)
+#extracted_text4 = text_from_pdf_with_pdfplumber4(pdf_path)
+#extracted_text5 = text_from_pdf_with_pdfplumber5(pdf_path)
+#write_to_file(extracted_text1,output_file)
+#write_to_file(extracted_text2,output_file)
+#write_to_file(extracted_text3,output_file)
+#write_to_file(extracted_text4,output_file)
+#write_to_file(extracted_text5,output_file)
