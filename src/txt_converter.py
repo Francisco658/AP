@@ -14,7 +14,6 @@ def convert_to_lowercase(file_path):
     except Exception as e:
         return f"An error occurred: {str(e)}"
 
-# Example usage:
-file_path = "../TXT Files/Rest_Time_2.txt"
+file_path = "../TXT Files/Warm_Up_2.txt"
 result = convert_to_lowercase(file_path)
 print(result)
