@@ -1,79 +1,78 @@
-divisões para organização de treino de musculação
+divisions for organizing weight training
 
-o treino de musculação pode ter várias divisões para rotinas diferentes.
+weight training can have several divisions for different routines.
 
-treino ab
-esse tipo de treino divide os músculos em dois grupos: inferiores e superiores. então o aluno treina revezando inferiores e superiores a cada dia. treinando cada grupo de músculos duas ou três vezes na semana.
+ab training
+this type of training divides the muscles into two groups: lower and upper. then the trainee alternates between lower and upper body workouts each day, training each muscle group two or three times a week.
 
-opção 1:
-segunda: inferiores (a)
-terça: superiores (b)
-quarta: descanso
-quinta: inferiores (a)
-sexta: superiores (b)
-sábado e domingo: descanso
+option 1:
+monday: lower body (a)
+tuesday: upper body (b)
+wednesday: rest
+thursday: lower body (a)
+friday: upper body (b)
+saturday and sunday: rest
 
-opção 2:
-segunda: inferiores (a)
-terça: superiores (b)
-quarta: inferiores (a)
-quinta: superiores (b)
-sexta: inferiores (a)
-sábado: superiores (b)
-domingo: descanso
+option 2:
+monday: lower body (a)
+tuesday: upper body (b)
+wednesday: lower body (a)
+thursday: upper body (b)
+friday: lower body (a)
+saturday: upper body (b)
+sunday: rest
 
-treino abc
-neste treino abc, é feita a divisão de três grupos musculares. e cada grupo é trabalhado 1 ou 2 vezes na semana.
-existem várias combinações de grupos musculares que podem ser exercitados por dia, como por exemplo:
-a: peito, tríceps e ombros; b: costas e bíceps; c: treino inferior;
-a: costas, bíceps e ombros; b: coxa, glúteos e lombar; c: peito, tríceps e abdômen;
-a: peito e tríceps; b: costas e bíceps; c: pernas e ombros;
-a: peito e costas; b: bíceps e tríceps; c perna e ombros.
+abc training
+in this abc training, the muscles are divided into three groups, and each group is worked out 1 or 2 times a week. there are several combinations of muscle groups that can be exercised each day, such as:
+a: chest, triceps, shoulders; b: back, biceps; c: lower body;
+a: back, biceps, shoulders; b: thighs, glutes, lower back; c: chest, triceps, abs;
+a: chest, triceps; b: back, biceps; c: legs, shoulders;
+a: chest, back; b: biceps, triceps; c: legs, shoulders.
 
-opção 1:
-segunda: peito, tríceps e ombros (a)
-terça: descanso
-quarta: pernas (b)
-quinta: descanso
-sexta: costas, bíceps e trapézio (c)
-sábado e domingo: descanso
+option 1:
+monday: chest, triceps, shoulders (a)
+tuesday: rest
+wednesday: legs (b)
+thursday: rest
+friday: back, biceps, trapezius (c)
+saturday and sunday: rest
 
-opção 2:
-segunda: peito, tríceps e ombros (a)
-terça: costas, bíceps e trapézio (b)
-quarta: pernas (c)
-quinta: peito, tríceps e ombros (a)
-sexta: costas, bíceps e trapézio (b)
-sábado: pernas (c)
-domingo: descanso
+option 2:
+monday: chest, triceps, shoulders (a)
+tuesday: back, biceps, trapezius (b)
+wednesday: legs (c)
+thursday: chest, triceps, shoulders (a)
+friday: back, biceps, trapezius (b)
+saturday: legs (c)
+sunday: rest
 
-treino abcd
-neste tipo de treino, a divisão é feita em quatro grupos musculares. e cada grupo muscular vai ser exercitado uma vez por semana.
+abcd training
+in this type of training, the division is made into four muscle groups, and each muscle group will be exercised once a week.
 
-opção:
-segunda: costas e trapézio (a)
-terça: peitoral e ombros (b)
-quarta: descanso
-quinta: pernas completas (c)
-sexta: tríceps, bíceps e antebraços (d)
-sábado e domingo: descanso
+option:
+monday: back and trapezius (a)
+tuesday: chest and shoulders (b)
+wednesday: rest
+thursday: complete legs (c)
+friday: triceps, biceps, forearms (d)
+saturday and sunday: rest
 
-treino abcde
-neste treino abcde, a divisão é feita em cinco grupos musculares. e cada um desses grupos serão exercitados uma vez por semana.
+abcde training
+in this abcde training, the division is made into five muscle groups, and each of these groups will be exercised once a week.
 
-opção 1:
-segunda: tríceps, bíceps e abdômen (a)
-terça: pernas completas (b);
-quarta: ombros, trapézio e abdômen (c);
-quinta: costas e panturrilha (d);
-sexta: peito e abdômen (e)
-sábado e domingo: descanso
+option 1:
+monday: triceps, biceps, abs (a)
+tuesday: complete legs (b)
+wednesday: shoulders, trapezius, abs (c)
+thursday: back and calves (d)
+friday: chest and abs (e)
+saturday and sunday: rest
 
-opção 2:
-segunda: tríceps, bíceps e abdômen (a)
-terça: pernas completas (b);
-quarta: ombros, trapézio e abdômen (c);
-quinta: descanso
-sexta: costas e panturrilha (d);
-sábado: peito e abdômen (e)
-domingo: descanso
+option 2:
+monday: triceps, biceps, abs (a)
+tuesday: complete legs (b)
+wednesday: shoulders, trapezius, abs (c)
+thursday: rest
+friday: back and calves (d)
+saturday: chest and abs (e)
+sunday: rest
