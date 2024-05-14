@@ -8,7 +8,6 @@ from langchain_core.messages import get_buffer_string
 from langchain_core.prompts import format_document
 from langchain.prompts.prompt import PromptTemplate
 
-
 condense_question = """Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question.
 
 Chat History:
@@ -92,5 +91,6 @@ def getChatChain(llm, db):
         inputs = {"question": question}
         result = final_chain.invoke(inputs)
         memory.save_context(inputs, {"answer": result["answer"]})
+        return result["answer"]
 
     return chat
