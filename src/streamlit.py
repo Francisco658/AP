@@ -57,7 +57,6 @@ def main(llm_model_name: str, embedding_model_name: str, documents_path: str) ->
             with st.spinner("Generating response..."):
                 try:
                     response = chat(user_input.strip())
-                    st.write("Response:")
                     st.write(response)
                     ask_question(question_key + 1)  # Recursive call to ask the next question
                 except KeyboardInterrupt:

@@ -18,7 +18,7 @@ from langchain.prompts.prompt import PromptTemplate
 
 condense_question = """Use the following pieces of context to answer the question at the end. 
     If you don't know the answer, just say that you don't know, don't try to make up an answer.
-    {context}
+    {chat_history}
     Question: {question}
     Helpful Answer:"""
 CONDENSE_QUESTION_PROMPT = PromptTemplate.from_template(condense_question)
