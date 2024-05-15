@@ -44,6 +44,9 @@ def main(llm_model_name: str, embedding_model_name: str, documents_path: str) ->
     if "question_key" not in st.session_state:
         st.session_state.question_key = 0
 
+    if "conversation" not in st.session_state:
+        st.session_state.conversation = []
+
     def ask_question(question_key):
         user_input = st.text_input(
             f"Hello! How can I help you?",
@@ -58,6 +61,8 @@ def main(llm_model_name: str, embedding_model_name: str, documents_path: str) ->
                 try:
                     response = chat(user_input.strip())
                     st.write(response)
+                    st.session_state.conversation.append((user_input.strip(), response))  # Save conversation
+                    st.session_state.question_key += 1  # Update question key
                     ask_question(question_key + 1)  # Recursive call to ask the next question
                 except KeyboardInterrupt:
                     st.stop()
@@ -69,8 +74,6 @@ def main_streamlit():
 
     st.sidebar.header("Settings")
     llm_model_name = st.sidebar.text_input("LLM Model Name", "mistral")
-
-    st.sidebar.write("Press Ctrl + C to exit at any time.")
 
     main(llm_model_name, "nomic-embed-text", "../Final PDF Files")
 

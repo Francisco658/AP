@@ -38,6 +38,34 @@ def load_documents_into_database(model_name: str, documents_path: str, reload: b
     
     return db
 
+def load_documents_into_database2(model_name: str, documents_path: str, reload: bool) -> tuple:
+    """
+    Loads documents from the specified directory into the Chroma database
+    after splitting the text into chunks.
+
+    Returns:
+        tuple: The Chroma database with loaded documents and the documents path.
+    """
+
+    print("Loading documents")
+    raw_documents = load_documents(documents_path)
+    documents = TEXT_SPLITTER.split_documents(raw_documents)
+
+    # ESCREVER
+    if reload:
+        print("Creating embeddings and loading documents into Chroma")
+        db = Chroma.from_documents(
+            documents=documents,
+            embedding=OllamaEmbeddings(model=model_name),
+            persist_directory="Embeddings",
+        )
+        db.persist()
+    else:
+        # LER
+        db = Chroma(persist_directory="Embeddings", embedding_function=OllamaEmbeddings(model=model_name))
+    
+    return db, documents_path
+
 def main(llm_model_name: str, embedding_model_name: str, documents_path: str) -> None:
     # Check to see if the models available, if not attempt to pull them
     try:
