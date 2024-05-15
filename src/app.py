@@ -2,19 +2,17 @@ from langchain_community.llms import Ollama
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-
 from models import check_if_model_is_available
 from document_loader import load_documents
 import argparse
 import sys
-
 from llm import getChatChain
 
 
 TEXT_SPLITTER = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
 
 
-def load_documents_into_database(model_name: str, documents_path: str) -> Chroma:
+def load_documents_into_database(model_name: str, documents_path: str, reload: bool) -> Chroma:
     """
     Loads documents from the specified directory into the Chroma database
     after splitting the text into chunks.
@@ -27,11 +25,19 @@ def load_documents_into_database(model_name: str, documents_path: str) -> Chroma
     raw_documents = load_documents(documents_path)
     documents = TEXT_SPLITTER.split_documents(raw_documents)
 
-    print("Creating embeddings and loading documents into Chroma")
-    db = Chroma.from_documents(
-        documents,
-        OllamaEmbeddings(model=model_name),
-    )
+    # ESCREVER
+    if reload:
+        print("Creating embeddings and loading documents into Chroma")
+        db = Chroma.from_documents(
+            documents=documents,
+            embedding=OllamaEmbeddings(model=model_name),
+            persist_directory="Embeddings",
+        )
+        db.persist()
+    else:
+        # LER
+        db = Chroma(persist_directory="Embeddings", embedding_function=OllamaEmbeddings(model=model_name))
+    
     return db
 
 
@@ -86,6 +92,13 @@ def parse_arguments() -> argparse.Namespace:
         "--path",
         default="../Final PDF Files",
         help="The path to the directory containing documents to load.",
+    )
+    parser.add_argument(
+        "-r",
+        "--reload",
+        action="store_true",
+        default=False,
+        help="If provided, Embeddings will be reloaded. Otherwise(default), they are read from the Vector Database.",
     )
     return parser.parse_args()
 
