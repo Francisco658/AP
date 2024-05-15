@@ -60,16 +60,18 @@ def main(llm_model_name: str, embedding_model_name: str, documents_path: str) ->
             with st.spinner("Generating response..."):
                 try:
                     response = chat(user_input.strip())
-                    for message in st.session_state.consersation:
-                        st.write(message)
-                    st.write(response)
                     st.session_state.conversation.append((user_input.strip(), response))  # Save conversation
+                    #st.write(response)
+                    for user_message, bot_response in st.session_state.conversation:
+                        st.write(f"You: {user_message}")
+                        st.write(f"Bot: {bot_response}")
                     st.session_state.question_key += 1  # Update question key
                     ask_question(question_key + 1)  # Recursive call to ask the next question
                 except KeyboardInterrupt:
                     st.stop()
 
-    ask_question(st.session_state.question_key)
+    if not st.session_state.conversation:
+        ask_question(st.session_state.question_key)
 
 def main_streamlit():
     st.title("WorkoutWizard")
