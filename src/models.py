@@ -1,7 +1,6 @@
 import ollama
 from tqdm import tqdm
 
-
 def __pull_model(name: str) -> None:
     current_digest, bars = "", {}
     for progress in ollama.pull(name, stream=True):

@@ -8,9 +8,7 @@ import argparse
 import sys
 from llm import getChatChain
 
-
 TEXT_SPLITTER = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
-
 
 def load_documents_into_database(model_name: str, documents_path: str, reload: bool) -> Chroma:
     """
@@ -40,7 +38,6 @@ def load_documents_into_database(model_name: str, documents_path: str, reload: b
     
     return db
 
-
 def main(llm_model_name: str, embedding_model_name: str, documents_path: str) -> None:
     # Check to see if the models available, if not attempt to pull them
     try:
@@ -57,21 +54,20 @@ def main(llm_model_name: str, embedding_model_name: str, documents_path: str) ->
         print(e)
         sys.exit()
 
+    # Initialize LLM and chat chain
     llm = Ollama(model=llm_model_name)
     chat = getChatChain(llm, db)
 
+    # Start the conversation loop
     while True:
         try:
-            user_input = input(
-                "\n\nPlease enter your question (or type 'exit' to end): "
-            )
+            user_input = input("\n\nPlease enter your question (or type 'exit' to end): ")
             if user_input.lower() == "exit":
                 break
 
             chat(user_input)
         except KeyboardInterrupt:
             break
-
 
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run local LLM with RAG with Ollama.")
@@ -101,7 +97,6 @@ def parse_arguments() -> argparse.Namespace:
         help="If provided, Embeddings will be reloaded. Otherwise(default), they are read from the Vector Database.",
     )
     return parser.parse_args()
-
 
 if __name__ == "__main__":
     args = parse_arguments()
