@@ -49,7 +49,7 @@ def main(llm_model_name: str, embedding_model_name: str, documents_path: str) ->
 
     # Creating database form documents
     try:
-        db = load_documents_into_database(embedding_model_name, documents_path)
+        db = load_documents_into_database(embedding_model_name, documents_path,True)
     except FileNotFoundError as e:
         print(e)
         sys.exit()
