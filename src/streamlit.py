@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 from models import check_if_model_is_available
 from document_loader import load_documents
 from llm import getChatChain
@@ -22,7 +23,46 @@ def load_documents_into_database(model_name: str, documents_path: str) -> Chroma
     )
     return db
 
-def main(llm_model_name: str, embedding_model_name: str, documents_path: str) -> None:
+def set_background_image():
+    background_image = """
+    <style>
+    [data-testid="stAppViewContainer"] > .main {
+        background-image: url("https://img.freepik.com/free-photo/assortment-with-dumbbells_23-2148531537.jpg?t=st=1715890005~exp=1715893605~hmac=5d89ad294c88776d073d0075833a6fce0c7f8cd07167717914b2f813deb81053&w=2000");
+        background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
+        background-position: center;  
+        background-repeat: no-repeat;
+    }
+    </style>
+    """
+
+    st.markdown(background_image, unsafe_allow_html=True)
+
+    input_style = """
+    <style>
+    input[type="text"] {
+        background-color: transparent;
+        color: #a19eae;  // This changes the text color inside the input box
+    }
+    div[data-baseweb="base-input"] {
+        background-color: transparent !important;
+    }
+    [data-testid="stAppViewContainer"] {
+        background-color: transparent !important;
+    }
+    </style>
+    """
+    st.markdown(input_style, unsafe_allow_html=True)
+    return
+
+def main():
+
+    set_background_image()
+    st.title("FitBot")
+    st.sidebar.header("Settings")
+    llm_model_name = st.sidebar.text_input("LLM Model Name", "mistral")
+    embedding_model_name = "nomic-embed-text"
+    documents_path = "../Final PDF Files"
+
     # Check to see if the models available, if not attempt to pull them
     try:
         check_if_model_is_available(llm_model_name)
@@ -41,45 +81,27 @@ def main(llm_model_name: str, embedding_model_name: str, documents_path: str) ->
     llm = Ollama(model=llm_model_name)
     chat = getChatChain(llm, db)
 
-    if "question_key" not in st.session_state:
-        st.session_state.question_key = 0
+    # Initialize chat history
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
 
-    if "conversation" not in st.session_state:
-        st.session_state.conversation = []
+    # Display chat messages from history on app rerun
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.markdown(message["content"])
 
-    def ask_question(question_key):
-        user_input = st.text_input(
-            f"Hello! How can I help you?",
-            key=f"input_{question_key}"
-        )
+    # Accept user input
+    if prompt := st.chat_input("Message FitBot"):
+        st.session_state.messages.append({"role": "user", "content": prompt})
 
-        if user_input.strip().lower() == "exit":
-            st.stop()
+        with st.chat_message("user"):
+            st.markdown(prompt)
 
-        if st.button(f"Submit", key=f"button_{question_key}"):
-            with st.spinner("Generating response..."):
-                try:
-                    response = chat(user_input.strip())
-                    st.session_state.conversation.append((user_input.strip(), response))  # Save conversation
-                    #st.write(response)
-                    for user_message, bot_response in st.session_state.conversation:
-                        st.write(f"You: {user_message}")
-                        st.write(f"Bot: {bot_response}")
-                    st.session_state.question_key += 1  # Update question key
-                    ask_question(question_key + 1)  # Recursive call to ask the next question
-                except KeyboardInterrupt:
-                    st.stop()
+        with st.chat_message("assistant"):
+            response = chat(prompt)
+            st.write(response)
 
-    if not st.session_state.conversation:
-        ask_question(st.session_state.question_key)
-
-def main_streamlit():
-    st.title("WorkoutWizard")
-
-    st.sidebar.header("Settings")
-    llm_model_name = st.sidebar.text_input("LLM Model Name", "mistral")
-
-    main(llm_model_name, "nomic-embed-text", "../Final PDF Files")
+        st.session_state.messages.append({"role": "assistant", "content": response})
 
 if __name__ == "__main__":
-    main_streamlit()
+    main()
