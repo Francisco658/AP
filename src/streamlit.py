@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+from streamlit.components.v1 import html
 from models import check_if_model_is_available
 from document_loader import load_documents
 from llm import getChatChain
@@ -23,19 +24,26 @@ def load_documents_into_database(model_name: str, documents_path: str) -> Chroma
     )
     return db
 
-def set_background_image():
-    background_image = """
-    <style>
-    [data-testid="stAppViewContainer"] > .main {
-        background-image: url("https://img.freepik.com/free-photo/assortment-with-dumbbells_23-2148531537.jpg?t=st=1715890005~exp=1715893605~hmac=5d89ad294c88776d073d0075833a6fce0c7f8cd07167717914b2f813deb81053&w=2000");
-        background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
-        background-position: center;  
-        background-repeat: no-repeat;
-    }
-    </style>
-    """
+def get_base64_of_bin_file(bin_file):
+    with open(bin_file, 'rb') as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
 
-    st.markdown(background_image, unsafe_allow_html=True)
+def set_background_image(png_file):
+    bin_str = get_base64_of_bin_file(png_file)
+    page_bg_img = '''
+    <style>
+        .stApp{
+            background-image: url("data:image/png;base64,%s");
+            background-size: cover;
+        }
+        [data-testid="stBottom"] > div {
+            background: transparent;
+        }
+    </style>
+    ''' % bin_str
+
+    st.markdown(page_bg_img, unsafe_allow_html=True)
 
     input_style = """
     <style>
@@ -54,10 +62,13 @@ def set_background_image():
     st.markdown(input_style, unsafe_allow_html=True)
     return
 
-def main():
+def setup():
+    st.set_page_config(page_title='FitBot', page_icon="📊", initial_sidebar_state="expanded", layout='wide')
+    st.sidebar.image("../Images/fitbot2.png")
 
-    set_background_image()
-    st.title("FitBot")
+def main():
+    setup()
+    set_background_image("../Images/background3.png")
     st.sidebar.header("Settings")
     llm_model_name = st.sidebar.text_input("LLM Model Name", "mistral")
     embedding_model_name = "nomic-embed-text"
@@ -95,7 +106,7 @@ def main():
         st.session_state.messages.append({"role": "user", "content": prompt})
 
         with st.chat_message("user"):
-            st.markdown(prompt)
+            st.write(prompt)
 
         with st.chat_message("assistant"):
             response = chat(prompt)
