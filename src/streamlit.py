@@ -1,4 +1,5 @@
 import streamlit as st
+import argparse
 import base64
 from streamlit.components.v1 import html
 from models import check_if_model_is_available
@@ -23,6 +24,17 @@ def load_documents_into_database(model_name: str, documents_path: str) -> Chroma
         OllamaEmbeddings(model=model_name),
     )
     return db
+
+def parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run local LLM with RAG with Ollama.")
+    parser.add_argument(
+        "-r",
+        "--reload",
+        action="store_true",
+        default=False,
+        help="If provided, Embeddings will be reloaded. Otherwise(default), they are read from the Vector Database.",
+    )
+    return parser.parse_args()
 
 def get_base64_of_bin_file(bin_file):
     with open(bin_file, 'rb') as f:
@@ -66,11 +78,12 @@ def setup():
     st.set_page_config(page_title='FitBot', page_icon="📊", initial_sidebar_state="expanded", layout='wide')
     st.sidebar.image("../Images/fitbot2.png")
 
-def main():
+def main(reload: bool):
     setup()
     set_background_image("../Images/background3.png")
     st.sidebar.header("Settings")
-    llm_model_name = st.sidebar.text_input("LLM Model Name", "mistral")
+    reload_embedings = st.sidebar.checkbox("Reload Embeddings",True)
+    llm_model_name = st.sidebar.selectbox("LLM Model Name", ["mistral","llama2","zephyr"],0)
     embedding_model_name = "nomic-embed-text"
     documents_path = "../Final PDF Files"
 
@@ -82,12 +95,14 @@ def main():
         st.error(e)
         st.stop()
 
-    # Creating database from documents
-    try:
-        db = load_documents_into_database(embedding_model_name, documents_path)
-    except FileNotFoundError as e:
-        st.error(e)
-        st.stop()
+    if reload_embedings:
+        try:
+            db = load_documents_into_database(embedding_model_name, documents_path)
+        except FileNotFoundError as e:
+            st.error(e)
+            st.stop()
+    else:
+        db = Chroma(persist_directory=documents_path, embedding_function=OllamaEmbeddings(model=llm_model_name))
 
     llm = Ollama(model=llm_model_name)
     chat = getChatChain(llm, db)
@@ -115,4 +130,5 @@ def main():
         st.session_state.messages.append({"role": "assistant", "content": response})
 
 if __name__ == "__main__":
-    main()
+    args = parse_arguments()
+    main(args.reload)

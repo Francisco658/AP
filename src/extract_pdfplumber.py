@@ -10,7 +10,7 @@ def text_from_pdf_with_pdfplumber1(pdf_path):
     # Open the PDF file
     with pdfplumber.open(pdf_path) as pdf:
         # Iterate through the pages of the PDF
-        for page in pdf.pages[5:-1]:
+        for page in pdf.pages:
             # Extract text from the current page
             page_text = page.extract_text()
             # Append the text of the current page to the full text
@@ -112,15 +112,7 @@ def write_to_file(text, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(text)
   
-#pdf_path = ''
-#output_file = '../TXT Files/'
-#extracted_text1 = text_from_pdf_with_pdfplumber1(pdf_path)
-#extracted_text2 = text_from_pdf_with_pdfplumber2(pdf_path)
-#extracted_text3 = text_from_pdf_with_pdfplumber3(pdf_path)
-#extracted_text4 = text_from_pdf_with_pdfplumber4(pdf_path)
-#extracted_text5 = text_from_pdf_with_pdfplumber5(pdf_path)
-#write_to_file(extracted_text1,output_file)
-#write_to_file(extracted_text2,output_file)
-#write_to_file(extracted_text3,output_file)
-#write_to_file(extracted_text4,output_file)
-#write_to_file(extracted_text5,output_file)
+pdf_path = '/Users/franciscoclaudino/Documents/Perfil de Sistemas Inteligentes/Aprendizagem Profunda/Trabalho Prático/Projeto Prático/AP/PDF Files/Building a nutritional plan to support prolonged exercise.pdf'
+output_file = '../TXT Files/Building_a_nutritional_plan_to_support_prolonged_exercise'
+extracted_text = text_from_pdf_with_pdfplumber1(pdf_path)
+write_to_file(extracted_text,output_file)
