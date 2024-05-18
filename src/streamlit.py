@@ -76,11 +76,11 @@ def set_background_image(png_file):
 
 def setup():
     st.set_page_config(page_title='FitBot', page_icon="📊", initial_sidebar_state="expanded", layout='wide')
-    st.sidebar.image("../Images/fitbot2.png")
+    st.sidebar.image("../Images/fitbot3.png")
 
 def main(reload: bool):
     setup()
-    set_background_image("../Images/background3.png")
+    set_background_image("../Images/background6.png")
     st.sidebar.header("Settings")
     reload_embedings = st.sidebar.checkbox("Reload Embeddings",True)
     llm_model_name = st.sidebar.selectbox("LLM Model Name", ["mistral","llama2","zephyr"],0)
