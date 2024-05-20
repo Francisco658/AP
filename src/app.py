@@ -25,7 +25,6 @@ def load_documents_into_database(model_name: str, documents_path: str, reload: b
     raw_documents = load_documents(documents_path)
     documents = TEXT_SPLITTER.split_documents(raw_documents)
 
-    # ESCREVER
     if reload:
         print("Creating embeddings and loading documents into Chroma")
         db = Chroma.from_documents(
@@ -35,7 +34,6 @@ def load_documents_into_database(model_name: str, documents_path: str, reload: b
         )
         db.persist()
     else:
-        # LER
         db = Chroma(persist_directory="../Embeddings", embedding_function=OllamaEmbeddings(model=model_name))
     
     return db
