@@ -85,7 +85,7 @@ def main(llm_model_name: str, embedding_model_name: str, documents_path: str) ->
     llm = Ollama(model=llm_model_name)
     chat = getChatChain(llm, db)
 
-    evalute(llm_model_name,db)
+    #evalute(llm_model_name,db)
 
     # Start the conversation loop
     while True:
