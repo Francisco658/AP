@@ -16,7 +16,8 @@ def load_data(file):
 # Function to create and display various plots
 def display_plots(data):
     # Score distribution plot
-    st.write("## Score Distribution")
+    # st.write("## Score Distribution")
+    st.markdown("<h2 style='color: black;'>Score Distribution</h2>", unsafe_allow_html=True)
     unique_column = 'model'
     unique_values = data[unique_column].unique()
 
@@ -43,7 +44,8 @@ def display_plots(data):
     st.plotly_chart(fig)
 
     # Time distribution plot
-    st.write("## Time Distribution")
+    st.markdown("<h2 style='color: black;'>Time Distribution</h2>", unsafe_allow_html=True)
+    # st.write("## Time Distribution")
     unique_column = 'model'
     unique_values = data[unique_column].unique()
 
@@ -71,7 +73,8 @@ def display_plots(data):
     st.plotly_chart(fig)
 
     # Score vs Time scatter plot
-    st.write("## Score vs Time")
+    # st.write("## Score vs Time")
+    st.markdown("<h2 style='color: black;'>Score vs Time</h2>", unsafe_allow_html=True)
     fig3 = px.scatter(
         data, 
         x='score', 
@@ -88,7 +91,8 @@ def display_plots(data):
     st.plotly_chart(fig3)
 
     # Radar chart for model comparison
-    st.write("### Model Comparison Radar Charts")
+    st.markdown("<h2 style='color: black;'>Model Comparison Radar Charts</h2>", unsafe_allow_html=True)
+    # st.write("### Model Comparison Radar Charts")
     # Create two columns for side-by-side radar charts
     col1, col2 = st.columns(2)
 
@@ -142,32 +146,33 @@ def display_plots(data):
         st.plotly_chart(fig_time)
         
     # Box plot for scores by model
-    st.write("### Scores by Model")
+    st.markdown("<h2 style='color: black;'>Scores by Model</h2>", unsafe_allow_html=True)
+    # st.write("### Scores by Model")
     fig5 = px.box(data, x='model', y='score', title='Scores by Model', color='model')
     st.plotly_chart(fig5)
 
 def main():
 
-    # page_bg_img = f"""
-    # <style>
-    # [data-testid="stAppViewContainer"] > .main {{
-    # background-image: url("https://i.postimg.cc/4xgNnkfX/Untitled-design.png");
-    # background-size: cover;
-    # background-position: center center;
-    # background-repeat: no-repeat;
-    # background-attachment: local;
-    # }}
-    # [data-testid="stHeader"] {{
-    # background: rgba(0,0,0,0);
-    # }}
-    # </style>
-    # """
+    page_bg_img = f"""
+    <style>
+    [data-testid="stAppViewContainer"] > .main {{
+    background-image: url("https://i.postimg.cc/4xgNnkfX/Untitled-design.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    }}
+    [data-testid="stHeader"] {{
+    background: rgba(0,0,0,0);
+    }}
+    </style>
+    """
 
-    # st.markdown(page_bg_img, unsafe_allow_html=True)
+    st.markdown(page_bg_img, unsafe_allow_html=True)
     
     # left_co, cent_co,last_co = st.columns(3)
     # with cent_co:
-    st.image('fitbot2.png', width = 350)
+    st.image('../Images/fitbot2.png', width = 300)
 
     # Load data from the local Stats.csv file
     try:
