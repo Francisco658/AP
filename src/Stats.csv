@@ -1,1 +1,4 @@
 model,score,time
+mistral,N/A,51.95789408683777
+llama2,N/A,61.40091300010681
+zephyr,N/A,74.85454082489014
