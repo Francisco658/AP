@@ -12,7 +12,7 @@ from llm import getChatChain
 
 TEXT_SPLITTER = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
 
-def load_documents_into_database(model_name: str, documents_path: str, reload: bool) -> Chroma:
+def load_documents_into_database(llm_model_name:str, model_name: str, documents_path: str, reload: bool) -> Chroma:
     """
     Loads documents from the specified directory into the Chroma database
     after splitting the text into chunks.
@@ -20,21 +20,28 @@ def load_documents_into_database(model_name: str, documents_path: str, reload: b
     Returns:
         Chroma: The Chroma database with loaded documents.
     """
-
+    # Diretoria genérica para outros modelos, e específica para os 3 modelos que vamos testar
+    # print(llm_model_name)
+    if llm_model_name in ["llama2","zephyr","mistral"]:
+        directory = "../Embeddings/Embeddings_" + llm_model_name
+    else:
+        directory = "../Embeddings"
+        
     print("Loading documents")
     raw_documents = load_documents(documents_path)
     documents = TEXT_SPLITTER.split_documents(raw_documents)
 
+    # ESCREVER
     if reload:
         print("Creating embeddings and loading documents into Chroma")
         db = Chroma.from_documents(
             documents=documents,
             embedding=OllamaEmbeddings(model=model_name),
-            persist_directory="../Embeddings",
+            persist_directory=directory
         )
-        db.persist()
     else:
-        db = Chroma(persist_directory="../Embeddings", embedding_function=OllamaEmbeddings(model=model_name))
+        # LER
+        db = Chroma(persist_directory=directory, embedding_function=OllamaEmbeddings(model=model_name))
     
     return db
 
@@ -74,7 +81,7 @@ def main(llm_model_name: str, embedding_model_name: str, documents_path: str) ->
 
     # Creating database form documents
     try:
-        db = load_documents_into_database(embedding_model_name, documents_path,True)
+        db = load_documents_into_database(llm_model_name,embedding_model_name, documents_path,True)
     except FileNotFoundError as e:
         print(e)
         sys.exit()
