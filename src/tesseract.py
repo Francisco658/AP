@@ -1,6 +1,5 @@
 # Import necessary libraries
 import pdf2image
-from PIL import Image
 import pytesseract
 
 # Function to convert PDF to images and then extract
