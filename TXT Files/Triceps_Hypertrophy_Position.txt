@@ -1,0 +1,40 @@
+triceps brachii hypertrophy: greater gains with overhead elbow extension training
+
+key findings
+greater muscle hypertrophy: triceps brachii hypertrophy was substantially greater after training in the overhead arm position compared to the neutral arm position.
+specific muscle impact: the biarticular triceps brachii long head showed the most significant hypertrophy.
+training load adaptation: although the absolute weights were lower in the overhead position, the relative increase in training load and 1rm strength was similar between the two conditions.
+1. introduction
+resistance training is recommended for its benefits on physical performance and health. increasing muscle size is a common goal, and training at long muscle lengths is suggested to promote hypertrophy. this study compares triceps brachii hypertrophy after elbow extension exercises performed with arms in overhead versus neutral positions.
+
+2. methods
+participants: 21 healthy young adults (14 males, 7 females), untrained in systematic resistance training for 12 months prior.
+
+training protocol:
+
+exercise: elbow extensions using a cable machine.
+positions: one arm trained in the overhead position, the other in the neutral position.
+schedule: 10 reps/set, 5 sets/session, 2 sessions/week for 12 weeks.
+load increase: training load increased by 5% 1rm/session when no repetition failure occurred.
+measurements:
+
+muscle volume: assessed using mri pre- and post-training.
+strength: 1rm for each arm.
+3. results
+training load:
+
+gradually increased in both conditions.
+absolute values were lower in the overhead-arm.
+1rm strength:
+
+similar relative increase in both conditions (overhead: +71.4%, neutral: +62.3%).
+muscle volume changes:
+
+triceps brachii long head: greater increase in the overhead-arm (+28.5%) compared to neutral-arm (+19.6%).
+lateral and medial heads: increase also greater in overhead-arm (+14.6%) compared to neutral-arm (+10.5%).
+whole triceps brachii: overhead-arm saw a larger increase (+19.9%) compared to neutral-arm (+13.9%).
+4. discussion
+hypertrophy mechanism: training at longer muscle lengths (overhead position) likely contributed to greater hypertrophy. this might be due to increased metabolic stress and igf-1 expression.
+strength vs. hypertrophy: despite greater hypertrophy in the overhead-arm, strength gains were similar between both conditions, possibly due to neural adaptations.
+5. conclusion
+elbow extension training in the overhead arm position leads to greater triceps brachii hypertrophy compared to the neutral position, even with lower absolute loads. this has practical applications for exercise prescription to maximize muscle growth or prevent atrophy.

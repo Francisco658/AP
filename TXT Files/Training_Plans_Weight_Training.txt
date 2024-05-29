@@ -1,0 +1,63 @@
+providing training plans for weight training using cbr
+
+1. introduction
+the world health organization identifies physical inactivity as a significant cause of decreased lifespan in developed countries. despite growing interest in fitness, many people maintain a sedentary lifestyle. the covid-19 pandemic has further restricted physical activities, emphasizing the need for accessible fitness resources.
+
+digital resources for fitness range from paid models like peloton to free resources like youtube videos. however, these often lack individualization. this paper introduces an application that uses cbr to suggest personalized training plans for weight training, considering user preferences and restrictions.
+
+2. related work
+previous work in cbr for training plans includes systems tailored for specific characteristics, like age, sex, weight, and bmi, often requiring extensive data collection and expert supervision. other systems suggest training plans for gym exercises using rule-based reasoning (rbr) and cbr, but they primarily target beginners and lack comprehensive individualization.
+
+3. weight training plans with cbr
+the application supports users starting weight training or those already experienced, offering plans for gym or home workouts. it considers six use cases:
+
+beginners needing a full-body workout plan.
+athletes in other sports starting weight training.
+athletes wanting to split full-body workouts.
+athletes switching from gym to home workouts.
+traveling athletes without access to equipment.
+athletes facing progression problems needing a new plan.
+knowledge modeling: the system uses a broad case structure and knowledge base, including attributes for user data, training plans, and exercises.
+
+3.1 knowledge model
+
+user attributes:
+
+age: influences training performance and plan goals.
+experience: classified as beginner, advanced, or professional.
+sex: affects strength and muscle mass differences.
+weight and size: impact performance in bodyweight exercises.
+limitations: joint issues, medical conditions, etc.
+available equipment: dumbbells, barbells, gym, etc.
+training plan attributes:
+
+goal: power, maximum strength, strength endurance, muscle mass.
+muscle group: specific muscles or groups targeted.
+duration: time required to complete the plan.
+training type: upper body, lower body, whole body.
+exercise attributes:
+
+primary and secondary muscle groups: muscles targeted.
+equipment: necessary for the exercise.
+bodyweight exercise: yes/no.
+used joints: single or multi-joint exercises.
+muscle movement: push, pull, or isometric.
+explosive movement: exercises involving explosive actions.
+case structures:
+
+training plans: attributes for the user and plan, list of exercises.
+exercises: attributes for exercises, matched with other exercises.
+3.2 implementation
+
+the application has a client-server structure with a smartphone app and a cbr system server. when a user creates a training plan, the cbr system suggests appropriate exercises based on similar users' plans. users can customize plans by manually replacing exercises or getting suggestions.
+
+3.3 evaluation
+
+expert evaluation was conducted using trainers from rsg group, which operates several well-known fitness brands. trainers queried the system with different user and plan characteristics and rated the training plans and exercises on a scale from 1 to 5.
+
+evaluation results:
+
+training plans generally received good ratings, though power training plans were less accurate due to a lack of exercises.
+exercise replacements were effective, but context within the training plan needs consideration for better matches.
+4. conclusion and outlook
+the application generates and suggests personalized weight training plans using cbr. initial evaluations show promising results, but improvements are needed in exercise context and training plan structure. future work includes extending the knowledge model, refining the retrieval process, and conducting more extensive evaluations with non-expert athletes.

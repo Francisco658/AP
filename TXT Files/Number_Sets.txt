@@ -1,0 +1,28 @@
+quantification method for muscle hypertrophy
+
+introduction
+controlling training variables is crucial for maximizing muscle hypertrophy through resistance training. previous research has shown an inverted u-shaped relationship between weekly training volume and muscle mass gains, emphasizing the importance of training volume. while volume load (sets × reps × weight) is widely used, assessing the total number of sets might be an alternative method.
+
+methods
+a systematic literature search was conducted on may 18, 2018, in pubmed and scopus databases. studies were included if they were randomized controlled trials, compared total number of sets, involved at least 6-week interventions, and had participants with at least one year of resistance training experience aged 18-35 years. fourteen studies were selected for analysis.
+
+results
+total number of sets:
+
+studies comparing different repetition ranges but with the same total number of sets and frequency showed similar muscle hypertrophy outcomes.
+schoenfeld et al. (2018) compared a constant repetition program with a daily undulating periodization program, finding no significant differences in muscle mass gains.
+other studies (e.g., au et al., mangine et al., morton et al.) confirmed that matching the total number of sets leads to similar hypertrophy regardless of repetition range.
+training frequency:
+
+studies by brigatto et al., gomes et al., thomas and burns, and yue et al. found no significant differences in muscle hypertrophy when comparing different training frequencies with the same total number of sets per week.
+volume load:
+
+some studies supported volume load as a valid method, but its reliability decreases when comparing different exercises due to varying muscle activation and stabilization requirements (e.g., leg press vs. squats).
+discussion
+the review suggests that counting the total number of sets to failure (or near failure) is a valid method to quantify training volume for hypertrophy when other variables are constant. this method simplifies monitoring and comparing training loads across different mesocycles. however, the studies' moderate quality and variability in outcome assessment methods (e.g., skinfolds, dxa) suggest interpreting the results cautiously.
+
+conclusion
+the total number of sets can be an effective method to quantify training volume for muscle hypertrophy, particularly when the repetition range lies between 6 and 20+. this approach helps athletes and coaches monitor and adjust training loads efficiently. further research is needed to explore whether specific numbers of sets are optimal for inducing muscle gains.
+
+practical applications
+athletes and coaches can use the total number of sets as a practical quantification method to monitor and adjust training volume for hypertrophy, ensuring consistency across training programs.

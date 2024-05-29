@@ -1,0 +1,39 @@
+the scientific basis for high-intensity interval training (hiit)
+abstract:
+while physiological adaptations from endurance training in sedentary and recreationally active individuals are well-documented, the adaptations in highly trained endurance athletes are less clear. significant improvements in endurance performance and corresponding physiological markers, such as peak oxygen uptake (vo2peak) and oxidative enzyme activity, are observed following submaximal endurance training in less trained groups. however, in highly trained individuals, additional submaximal training does not further enhance these variables. improvements in these athletes can be achieved primarily through high-intensity interval training (hiit). research indicates no change in oxidative or glycolytic enzyme activity following hiit in highly trained athletes, despite significant performance improvements. an increase in skeletal muscle buffering capacity might be a mechanism behind these improvements. changes in plasma volume, stroke volume, muscle cation pumps, myoglobin, capillary density, and fiber type characteristics have not been thoroughly investigated in highly trained athletes in response to hiit.
+
+preliminary studies using vo2max velocity (vmax) as interval intensity and time to exhaustion at vmax (tmax) as interval duration have shown improvements in long-distance runners. in cyclists, repeated supramaximal sprinting may be as effective as traditional hiit programs. further research into the biochemical and physiological adaptations to different hiit programs and the optimal program for highly trained athletes is needed.
+
+1. endurance training in the untrained and recreationally active:
+1.1. submaximal endurance training:
+many biochemical and physiological adaptations from endurance training occur due to increased muscle cell energy demands. several studies show that in previously untrained individuals, submaximal endurance training (e.g., 2 hours/day at 65-75% vo2max) increases physical work capacity, attributed to better oxygen delivery (central adaptations) and muscle utilization (peripheral adaptations). central adaptations include lower heart rate, increased blood volume, and stroke volume, which may occur quickly, while muscle capillary density and mitochondrial volume take longer to adapt.
+
+1.2. high-intensity interval training (hiit):
+hiit, characterized by repeated bouts of high-intensity exercise separated by low-intensity recovery periods, enhances both aerobic and anaerobic capacities. studies in untrained individuals show hiit improves vo2max significantly faster than continuous submaximal training. for example, running at 100% vo2max for 5 minutes with 2-minute rests increased vo2max by 44% over 10 weeks.
+
+2. endurance training in highly trained athletes:
+highly trained athletes do not show the same improvements from submaximal endurance training as less trained individuals. studies suggest that in these athletes, endurance performance improvements require hiit.
+
+2.1. submaximal continuous training:
+increasing submaximal training volume does not enhance performance or physiological markers in highly trained athletes. for example, doubling swim training distance did not improve performance or aerobic capacity in well-trained swimmers.
+
+2.2. hiit in highly trained athletes:
+hiit improves running and cycling performance in highly trained athletes. improvements in 3 km, 10 km running, and 40 km cycling time trials have been observed. mechanisms may include enhanced skeletal muscle buffering capacity, changes in cation pump expression, and other peripheral adaptations. however, improvements in vo2max are rarely seen, suggesting other factors, such as improved heat tolerance or increased fat utilization, might play a role.
+
+3. hiit program optimization:
+there is limited information on optimizing hiit programs for highly trained athletes. key variables include exercise intensity, duration, number of intervals, and type of recovery. studies in runners show that intervals at vmax and 50-60% of tmax improve performance. in cyclists, supramaximal sprints may be as effective as traditional hiit.
+
+3.1. tmax in runners:
+tmax, the time to exhaustion at vmax, varies among individuals. intervals performed at 50-60% of tmax have been effective in improving endurance performance in runners.
+
+3.2. cycling studies:
+in cyclists, traditional hiit programs and supramaximal sprints both improve performance. the feasibility of using tmax for hiit prescription in cycling needs more research.
+
+3.3. rate of performance enhancement:
+endurance performance improves quickly following hiit, with significant changes observed after just four sessions in some studies.
+
+3.4. recovery considerations:
+optimal recovery duration between hiit bouts is not well-defined. active recovery appears beneficial for lactate removal and sustaining high work rates.
+
+conclusion:
+hiit significantly enhances endurance performance in highly trained athletes, while additional submaximal training does not. the mechanisms behind these improvements are not fully understood, and more research is needed on optimizing hiit programs for this population. coaches and athletes require further knowledge on the optimal hiit program variables to maximize performance improvements.

@@ -1,0 +1,143 @@
+introduction
+
+the field of muscle strength training has undergone numerous changes and adaptations due to scientific research that points to new paths and strategies to achieve desired results. moreover, the need for new stimuli and physical requirements has led to increased specialization among physical education professionals who work with muscle strength training.
+
+generally, strength training (muscle building) produces significant results for individuals seeking this type of exercise. however, based on physical assessment results, medical limitations, or clients' needs and goals, best practices for proposing an appropriate training prescription include reading the latest studies published in leading journals in the field or following recommendations from renowned institutions such as the american college of sports medicine (acsm), the regional council of physical education of são paulo state (cref4/sp), and the brazilian society of cardiology (sbc).
+
+these institutions provide recommendations for different needs and determine the best strategies for training but do not cover how training programs can be assembled or how training systems can be applied. thus, this book aims to fill this gap and offer physical education professionals updated and adequate knowledge for prescribing and correctly managing training load control.
+
+this proposal is limited to general training prescription and load control. for specific needs, professionals should consult research and guidelines from relevant institutions to complement the information provided in this book and perform optimal work.
+
+segmentation in strength training
+
+strength training offers a vast array of options, and to facilitate understanding of how to prescribe according to proposed goals, this chapter will address the sectors where strength training achieves good results. these sectors often align with the objectives that clients seek when starting muscle strength training. given the many possible goals, we have chosen those with the highest demand: aesthetics, competition, prophylactic/rehabilitation, and physical preparation.
+
+we will start with the most popular sector, aesthetics, which, although it has changed significantly over time, remains the leading reason people engage in strength training.
+
+aesthetic sector
+regarding aesthetics, defining what is appropriate or not is challenging, as people's preferences vary—some prefer a leaner profile, while others seek higher fat levels or greater muscle volume.
+
+over the years, the expected aesthetic profile has drastically changed. during brazil's colonial era, higher fat percentages were synonymous with health and prosperity. between the 1960s and 1980s, the media promoted very slim individuals as the aesthetic ideal. nowadays, it is known that excess body fat can cause various health problems, and low body fat levels can also lead to dysfunctions and issues. however, the current aesthetic ideal involves slightly higher muscle volume and very low body fat percentage, resulting in well-defined muscles.
+
+thus, the main reason people engage in strength training in gyms today is to reduce fat and increase muscle mass, which is crucial as it addresses both aesthetic and health concerns.
+
+to help, we will theoretically address some common questions among many professionals in the field:
+
+can strength training help increase muscle mass?
+can strength training aid in reducing body fat, being predominantly anaerobic?
+can strength training increase the resting metabolic rate?
+for each of these questions, the answer is yes. muscle mass can be increased through strength training (sabag et al., 2018; schoenfeld et al., 2014, 2015; krieger, 2010; holzbaur et al., 2007). body fat can be reduced through strength training, even though it is an anaerobic activity (alberga et al., 2015). resting metabolic rate can increase by approximately 120 kcal with regular strength training after about twelve weeks (dolezal; potteiger, 1998).
+
+however, to achieve any of these goals, strength training must be combined with an appropriate diet (nutritional aspects), which may be the main obstacle to achieving the best results when trying to simultaneously increase muscle mass and reduce body fat. additionally, biotypological characteristics can be a limiting factor.
+
+thus, seeking a nutrition professional specialized in sports nutrition is crucial for achieving the best results when aiming to promote changes in weight and body composition. they will evaluate dietary habits and prescribe a diet that respects the individual's characteristics and needs at each moment of training periodization. this ensures not only a hypocaloric diet for those seeking to reduce body fat or a hypercaloric diet for those aiming to increase muscle mass but also the balance of macro and micronutrients in each case.
+
+the mathematical theory has been much discussed in adjusting body composition. if 1 kg of stored fat equals approximately 7,700 kcal (acsm, 2000), creating a caloric deficit—e.g., 1,000 kcal/day—will result in a weight loss of 1 kg over eight days. this deficit is possible as long as the individual's intake does not fall below 1,200 kcal/day, which could compromise their health.
+
+to increase muscle mass, the best results are achieved by maintaining a positive caloric balance (surplus) of up to 350 kcal. above this value, there is a significant chance of increasing fat mass. therefore, if an individual has an average expenditure of 2,500 kcal/day, their caloric intake should be up to 2,850 kcal/day.
+
+it is also possible to maintain a neutral caloric balance, for example, consuming 2,500 kcal and expending 2,500 kcal. this strategy is recommended for those who do not intend to make significant changes in their body weight.
+
+thus, to assist in organizing long-term training (periodization), work to gain muscle mass and reduce body fat should be done at different times. this respects the oscillations of load (intensity and volume), which are specific characteristics of periodization combined with dietary control: during the hypertrophy phase of periodization, a positive caloric balance should be generated, and during the fat reduction phase, a negative caloric balance.
+
+non-periodized training, especially in the medium and long term (chronically), is less effective.
+
+let's use an example of a 24-week linear periodization (approximately 5 to 6 months) organized for a beginner student aiming to reduce body fat and increase muscle mass. in this model, the strategy is to start training with lower intensity and higher volume, gradually inverting these variables until the end of the periodization with lower volume and higher intensity.
+
+to exemplify, a linear periodization (macrocycle) can be proposed, organized into four mesocycles: the first aims to adapt the client to strength training, improving movement mechanics (intermuscular and intramuscular coordination); the second aims at fat reduction; the third focuses on increasing muscle mass; and the fourth is a transitional period for the regeneration of bodily tissues overloaded during the periodization.
+
+to achieve these goals, a strategy would be to start the adaptation period (1st mesocycle) with 15 to 25 repetitions, using a load percentage between 55% and 65% of one repetition maximum (1rm). in the 2nd mesocycle (fat reduction), repetitions would increase to between 12 and 18, with a load percentage between 60% and 70% of 1rm. in the 3rd mesocycle (muscle mass increase), repetitions should decrease to between 8 and 12, with an intensity increase to 70% to 80% of 1rm, following the linear periodization proposal. finally, a transitional mesocycle would involve interrupting training for 2 to 4 weeks to allow for the recovery of these structures (regenerative phase).
+
+it is also possible to invert the mesocycles, keeping the first and last mesocycles the same, performing the muscle mass increase phase in the second mesocycle, and the fat reduction phase in the third mesocycle.
+
+care must be taken not to err in organization if this inversion is chosen, as professionals tend to apply higher volume training during fat reduction phases and are resistant to lower volumes. however, this should not be the case.
+
+in this model, the 2nd mesocycle of periodization can start with the goal of increasing muscle mass, using 12 to 18 repetitions and an intensity between 60% and 70% of 1rm; and the 3rd mesocycle can be performed with 8 to 12 repetitions and 70% to 80% of 1rm.
+
+example of a 24-week linear periodization for a client aiming to learn movement mechanics (1st mesocycle), reduce fat (2nd mesocycle), increase muscle volume (3rd mesocycle), and regenerate (4th mesocycle).
+
+mesocycle	duration (weeks)	number of series	repetitions	% of 1rm	interval	caloric balance
+mesocycle 1	4	2 to 3	15 to 25	55 to 65	45s	neutral
+mesocycle 2	6	3 to 4	12 to 18	60 to 70	45 to 60s	deficit
+mesocycle 3	12	3 to 4	8 to 12	70 to 80	60s	surplus
+mesocycle 4	2	n/a	n/a	n/a	n/a	neutral
+both objectives can be achieved regardless of which comes first, aligning the diet with a surplus or deficit caloric balance.
+
+example of a 24-week linear periodization for a client aiming to learn movement mechanics (1st mesocycle), increase muscle volume (2nd mesocycle), reduce fat (3rd mesocycle), and regenerate (4th mesocycle).
+
+mesocycle	duration (weeks)	number of series	repetitions	% of 1rm	interval	caloric balance
+mesocycle 1	4	2 to 3	15 to 25	55 to 65	45s	neutral
+mesocycle 2	12	3 to 4	12 to 18	60 to 70	45 to 60s	surplus
+mesocycle 3	6	3 to 4	8 to 12	70 to 80	60s	deficit
+mesocycle 4	2	n/a	n/a	n/a	n/a	neutral
+the following chapters will discuss competitive sectors, prophylactic/rehabilitation sectors, and physical preparation sectors, along with the manifestations of muscle strength and training programs for beginners to advanced students.
+
+program design for strength training
+
+when designing a strength training program, it is essential to follow a structured approach that ensures balanced muscle development, prevents injuries, and optimizes performance. one effective strategy is to alternate between exercises targeting agonist and antagonist muscle groups. for example, after performing an elbow flexion exercise that targets the flexors (biceps brachii, brachialis, brachioradialis), the next exercise should target the antagonistic muscles, the elbow extensors (triceps brachii and anconeus).
+
+this method provides several benefits:
+
+mechanical braking: performing an exercise for the agonist muscle induces an involuntary mechanical braking in the initial repetitions of the subsequent exercise for the antagonist muscle.
+joint balance: ensures equal stimulus distribution, which promotes joint stability and balanced muscular development. this approach prevents common issues where practitioners might overemphasize one muscle group over another, such as more exercises for the quadriceps than the hamstrings or more for the gastrocnemius than the tibialis anterior.
+when muscle strength between groups is imbalanced, stress on ligaments increases. thus, maintaining this exercise alternation is crucial for harmonious development. the guidelines for program design as proposed by prestes et al. (2016) are detailed below.
+
+rule 1: alternation of segments
+alternate between exercises for upper limb joints (scapulae, shoulders, elbows, and wrists) and those for lower limb joints (hips, knees, and ankles), but only after every two exercises. exercises involving spinal joints should be performed at the end of the program due to the need for spinal stability during upper and lower limb exercises. it is possible to start with either the upper or lower limbs without a mandatory sequence.
+
+rule 2: division into programs a and b
+since the work involves more than one exercise per muscle group, divide the program into two parts, a and b, to manage the volume effectively. an example of this division for an agonist/antagonist approach is shown in table 1.
+
+table 1. example order of exercises in agonist/antagonist program
+
+segment	program a	program b
+1	upper limb	lower limb
+2	upper limb	lower limb
+3	lower limb	upper limb
+4	lower limb	upper limb
+5	upper limb	lower limb
+6	upper limb	lower limb
+7	lower limb	upper limb
+8	lower limb	upper limb
+9	upper limb	spine
+10	upper limb	spine
+11	lower limb	spine
+12	lower limb	spine
+rule 3: prioritize large muscle groups
+start with larger muscle groups followed by smaller ones. for instance, perform two exercises for large muscle groups and one for small muscle groups. prefer multi-joint exercises but incorporate single-joint exercises when necessary. an example of a structured program is detailed below.
+
+example of a 12-week linear periodization
+
+mesocycle	duration (weeks)	number of series	repetitions	% of 1rm	interval	caloric balance
+mesocycle 1	4	2 to 3	15 to 25	55 to 65	45s	neutral
+mesocycle 2	6	3 to 4	12 to 18	60 to 70	45 to 60s	deficit
+mesocycle 3	12	3 to 4	8 to 12	70 to 80	60s	surplus
+mesocycle 4	2	n/a	n/a	n/a	n/a	neutral
+program a: agonist/antagonist exercises
+movement	exercise	material used	common name
+adduction (shoulders)	bench press	barbell/bench	regular bench press
+abduction (shoulders)	pull-down	machine	lat pull-down
+extension (knees)	leg press	machine	leg press
+flexion (knees)	leg curl	machine	leg curl
+abduction (shoulders)	dumbbells	dumbbells	lateral raise
+adduction (shoulders)	crossover	pulley	crossover
+extension (knees)	leg extension	machine	leg extension
+flexion (knees)	seated leg curl	machine	seated leg curl
+flexion (shoulders)	dumbbells	dumbbells	front raise
+extension (shoulders)	pulley	pulley	pulldown
+plantar flexion (ankles)	calf raise	machine	calf raise
+dorsiflexion (ankles)	ankle flexion	pulley	ankle flexion
+program b: agonist/antagonist exercises
+movement	exercise	material used	common name
+abduction (hips)	hip abductor	machine	hip abductor machine
+adduction (hips)	hip adductor	machine	hip adductor machine
+flexion (elbows)	biceps curl	barbell	barbell curl
+extension (elbows)	triceps pushdown	pulley	triceps pushdown
+flexion (hips)	leg raise	parallel bars	leg raise
+extension (hips)	glute bridge	bodyweight	glute bridge
+flexion (spine)	crunch	mat	crunch
+extension (spine)	hyperextension	bench	hyperextension
+lateral flexion (spine)	side bend	dumbbell	side bend
+rotation (spine)	russian twist	medicine ball	russian twist
+conclusion
+by following these structured approaches, physical education professionals can design comprehensive and balanced strength training programs tailored to their clients' needs. alternating between agonist and antagonist muscle groups and ensuring joint stability and balanced muscle development are key to effective training programs. always consider individual assessments and adjust the program as necessary for optimal results.

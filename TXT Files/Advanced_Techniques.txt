@@ -1,0 +1,177 @@
+introduction
+muscular strength (f) is defined as the capacity to alter the state of rest or motion of a body, expressed as the product of mass (m) and acceleration (a) (f = m x a). however, strength manifests in various forms, necessitating an initial structural analysis of these different manifestations. in strength training, additional factors such as training processes, stimulus characteristics, principles, organization, types, methods, and systems must be considered. mastery of these variables, along with knowledge in related areas such as physiology, nutrition, biomechanics, and anatomy, is essential for effective and motivating training programs.
+
+recent years have seen an increasing need to introduce variations in strength training. variations in the number of sets, repetitions, execution speed, and load intensity can influence training adaptations. the term "periodization" refers to the planned and controlled variation of training variables, a concept that will be detailed in this book.
+
+training overview
+physical activity can enhance physical fitness, encompassing cardiovascular, neuromuscular (muscular and flexibility), and body composition components. cardiovascular and strength training can be evaluated by intensity, duration, and frequency. properly balancing these variables can produce adaptive effects aligned with defined objectives, necessitating careful planning. effective adaptations depend on adherence to basic training principles, which ensure optimal load prescription.
+
+types of training
+understanding different training types is crucial for effective implementation and organization of training stimuli. common types include:
+
+resistance training: using machines or free weights, organized by intensity, repetitions, and sets.
+interval training: alternating periods of moderate or high intensity with rest, allowing for greater work volume in shorter periods.
+continuous training: long-duration training to improve aerobic endurance, with variants such as jogging and fartlek.
+circuit training: sequential exercises for comprehensive physical conditioning, suitable for beginners and advanced trainees.
+strength training methods
+strength training methods vary in terminology and objectives, often causing confusion. we present a taxonomy to clarify the relationship between training stimuli, regulatory mechanisms, and adaptations:
+
+hypertrophic methods: focus on muscle growth using submaximal intensities and high volumes.
+maximal strength methods: aim to increase maximal force production through high intensities and low volumes.
+power methods: enhance the force-velocity relationship with intermediate intensities and velocities.
+endurance strength methods: improve resistance to fatigue with lower intensities and higher volumes.
+advanced strength training techniques
+advanced techniques, often developed by powerlifters and bodybuilders, are essential for overcoming training plateaus. these techniques should be integrated into the periodization of strength training, used when an individual's muscular adaptations stagnate. examples include variations in load, repetitions, and rest intervals, tailored to individual needs and genetic characteristics. proper application can optimize strength and hypertrophy gains, avoiding overtraining.
+
+advanced training techniques (att) and their application
+concept and objective
+
+att focuses on variability and overload, aiming to increase the recruitment of muscle fibers and/or metabolic fatigue. when performing multiple sets of an exercise, the same muscle fibers are always fatigued. to activate other fibers, it is necessary to increase the intensity of the stimulus, which can be achieved through additional sets, exercise combinations, or providing a greater and differentiated stimulus to the muscle.
+
+training application
+
+except for highly trained individuals, implementing one att session per week or a microcycle of three sessions within a mesocycle is sufficient to optimize muscle development.
+
+examples of advanced training techniques/systems
+multi-set system
+
+involves warming up with progressively increasing load, followed by multiple sets with the same load. this system can be executed with any percentage of maximum load and desired number of sets and repetitions based on the training objectives. continuous use without altering training variables may lead to overtraining, muscle-joint injuries, or adaptation plateaus. it is effective for strength and power gains, especially with multi-joint exercises using 5-8 rm loads.
+
+pre-exhaustion technique
+
+this involves performing a single-joint exercise followed by a multi-joint exercise for the same muscle group without rest. for example, performing chest flys followed immediately by bench presses. the higher the percentage of load applied, the longer the rest between sets should be.
+
+training to failure
+
+this system is characterized by performing the maximum possible repetitions until concentric failure. in exercises with free weights, assistance may be required. this system can be applied with various intensities and in multiple sets and exercises depending on the practitioner's level.
+
+burn system
+
+an extension of the training to failure system, where after performing maximum repetitions to concentric failure, 5-6 partial repetitions (with reduced range due to fatigue) are performed. effective for training calves and arms and can be integrated into other systems. this system can be applied with various intensities and in multiple sets and exercises depending on the practitioner's level.
+
+giant sets system
+
+this involves performing 3-6 consecutive exercises with less than 60'' of rest or no rest between exercises and 3-5 min between each giant set. it can be applied to the same muscle group or different muscle groups. the number of giant sets should be adapted to individual physical and recovery capacities, not exceeding 5 giant sets. recommended repetitions for hypertrophy are 8-12 rm.
+
+forced repetitions system (or assisted training)
+
+similar to the burn system but more effective as the load is not reduced. the individual continues to perform at high levels of force during the negative (eccentric) phase. assistance is provided during the positive (concentric) phase to complete 2-6 additional repetitions. each set in this system should last about 90 seconds.
+
+negative/eccentric sets system
+
+while it is preferable to perform exercises in both concentric and eccentric phases, occasionally, a session can focus on negative training. this allows the use of heavier loads than what can be lifted concentrically, developing more strength. however, it requires caution due to the risk of muscle, tendon, and ligament injuries, and the need for two assistants.
+
+combined or compound sets system
+
+the most effective application of this system involves performing 2 or more exercises for the same muscle group with minimal or no rest between sets. it is similar to pre-exhaustion but can also involve two multi-joint exercises.
+
+super sets technique
+
+involves performing two consecutive exercises for antagonist and agonist muscles, e.g., tricep pushdowns followed by bicep curls. this can be applied with various intensities.
+
+tri-sets system
+
+this involves organizing three exercises for the same muscle group with minimal or no rest between exercises. typically, three sets of each exercise are performed.
+
+isometric system
+
+this system aims to increase force production capacity at the joint angles where force production is lowest. the individual performs a concentric contraction to the weakest angle and then holds an isometric contraction against resistance for 5-7 seconds. this system is particularly useful for increasing 1rm.
+
+repetition-pause system
+
+this involves using maximal loads in multiple repetitions with 10-15 seconds rest between each. assistance may be needed to complete the set if the individual cannot complete the required repetitions.
+
+blitz system
+
+focuses on training one body part per session, performing more sets and exercises for that specific region. this system is often used by bodybuilders in competition preparation.
+
+super pump system
+
+involves performing 15-18 sets for each muscle group to induce maximum hypertrophy. this system uses 5-6 repetitions per set with 15 seconds rest and 70-80% of 1rm.
+
+single set system
+
+an older system involving only one set per exercise with high loads and low repetitions, typically with 5 minutes rest between sets. effective for beginners or those with low physical fitness.
+
+isolated exercise system
+
+each session focuses on a single exercise, performing the maximum number of sets with 1-minute rest for 30-45 minutes. effective for correcting strength deficits in specific movements or muscle groups.
+
+partial repetitions technique
+
+involves performing exercises within a specific range of motion to train the angles with the highest force production capacity, using heavier loads without assistance.
+
+peak contraction technique
+
+this technique involves applying an isometric contraction for 2-4 seconds at the angle where the muscle has the highest force production capacity.
+
+pyramid sets system
+
+based on the relationship between volume and intensity, with repetitions decreasing and load increasing or vice versa in each set.
+
+dropset technique
+
+used to continue an exercise with reduced load after reaching muscle failure with a heavier load, typically performed with machines for rapid load reduction.
+
+back off sets system
+
+involves additional sets with lighter loads immediately after a sequence of heavy sets to increase the total number of stimulating repetitions.
+
+complex training system
+
+combines exercises with external resistance and plyometric exercises to enhance power and strength. recommendations include 2-5 sets of any exercise combination for complex training.
+
+contrast training
+
+alternates between high resistance exercises and explosive bodyweight exercises with similar repetitions, e.g., 5rm squats followed by 5 explosive bodyweight squats.
+
+german volume training
+
+involves performing 10 sets of 10 repetitions for a single exercise, with minimal rest and 50-60% of 1rm.
+
+split routine system
+
+divides training into different muscle groups on different days, typically used by bodybuilders or those with high training volume.
+
+training planning and periodization
+periodization cycles
+
+training is organized into units of increasing complexity and specificity, consisting of:
+
+training session (one unit)
+microcycle (one to two weeks)
+mesocycle (four to eight weeks)
+macrocycle (several months to a year)
+olympic cycle (four years)
+training phases
+
+preparation phase: high volume, low intensity, focusing on overall physical conditioning.
+competition phase: maintaining developed capacities with reduced volume and increased intensity.
+transition phase: low volume and intensity to reduce fatigue.
+periodization models
+
+classical model
+
+hypertrophy phase: high volume, moderate intensity.
+strength phase: moderate volume, high intensity.
+power phase: low volume, high intensity.
+competition peak: maximize strength and power.
+non-linear model
+
+varies intensity and volume within a week or two, suitable for sports with frequent competitions.
+practical example
+
+classical periodization for strength and power
+
+frequency: 3-4 times per week.
+hypertrophy: 3-5 sets, 8-15 reps, 70-85% 1rm.
+strength: 3-5 sets, 2-6 reps, 80-100% 1rm.
+power: 3-5 sets, 2-4 reps, 60-85% 1rm.
+competition peak: 1-3 sets, 1-3 reps, 90-100% 1rm.
+non-linear periodization example
+
+monday: 8-10 reps, 3-4 sets, 75-85% 1rm.
+wednesday: 3-5 reps, 4-5 sets, 85-95% 1rm.
+friday: 12-15 reps, 3-4 sets, 50-70% 1rm.
+conclusion
+adapting these advanced training techniques and periodization strategies can optimize strength and hypertrophy gains, ensuring continuous progress and minimizing plateaus. the choice of techniques and their integration into a periodized training plan should be tailored to individual needs, training levels, and specific goals.

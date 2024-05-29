@@ -1,0 +1,43 @@
+comparison of concentric and eccentric resistance training in terms of changes in the muscle contractile properties
+
+1. introduction
+the efficiency of the muscular system is crucial for sports performance, injury prevention, and physical fitness. resistance training can enhance muscle capabilities, including strength, hypertrophy, and endurance, depending on the applied stimulus. skeletal muscles can contract concentrically (shortening) or eccentrically (lengthening). eccentric contractions, which occur during movements like landing from a jump or descending stairs, enable the dissipation of mechanical energy and can generate greater force with lower bioelectrical muscle activity.
+
+2. methods
+2.1 study design
+
+this study used a repeated measures design to determine the temporal response of muscles during con or ecc training, using tmg to measure muscle properties. twenty female recreational athletes were randomly assigned to con or ecc groups. participants were asked to refrain from physical activity and stimulant-containing products on the day of the study.
+
+2.2 participants
+
+participants were 20 female athletes (age = 21.3 ± 0.9, body mass = 65.4 ± 5.4 kg, body height = 168.4 ± 9.6 cm) who exercised recreationally 3 times a week. the training program included aerobic and strength exercises aimed at improving fitness, health, motor skills, coordination, and flexibility.
+
+2.3 procedure
+
+the hamstring tmg test was performed twice: at rest and after resistance training. the test and measurement were performed on both lower limbs. the resistance test involved 10 maximal con or ecc repetitions of hamstring muscle work, with manual resistance adjusted by an experienced researcher. tmg parameters assessed included muscle displacement (dm), contraction time (tc), and delay time (td).
+
+2.4 statistical analyses
+
+repeated measures anova was used to assess differences among muscle (bf, st), contraction (con, ecc), side (left, right), and time (before, after). significance was determined at p ≤ 0.05, and effect size was measured using eta squared (ηp2). the data was analyzed using jamovi 2.2.3 software.
+
+3. results
+3.1 parameter td
+
+contraction factor had a significant effect on muscle performance (p < 0.001, ηp2 = 0.27).
+muscle factor displayed a medium effect (p = 0.037, ηp2 = 0.06).
+no significant differences between muscle groups.
+significant differences between ecc before and after (p < 0.001), and between con before and after (p = 0.025).
+3.2 parameter tc
+
+contraction factor had a significant effect (p < 0.001, ηp2 = 0.17).
+muscle and muscle × contraction interaction did not have significant effects.
+3.3 parameter dm
+
+muscle factor had a significant effect (p = 0.004, ηp2 = 0.09).
+no significant differences between muscle groups.
+no significant differences between ecc before and after, or con before and after.
+4. discussion
+the study aimed to investigate the effects of an acute bout of resistance training on hamstring muscle contractile properties, focusing on the impact of con vs. ecc contractions. the results revealed that ecc training produced greater changes in the neural and muscular profiles of the hamstring muscles compared to con training. ecc training resulted in shorter td and tc, decreased dm, and increased vrd, suggesting it may be more effective in improving muscle performance and preventing injuries.
+
+5. conclusion
+both con and ecc training led to changes in the muscle contractile properties of the hamstring muscles. ecc training produced greater and significant changes compared to con training. these findings suggest that ecc training may be more effective in enhancing the neural and muscular adaptations of the hamstring muscle group.
