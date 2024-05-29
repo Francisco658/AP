@@ -112,7 +112,7 @@ def write_to_file(text, output_file):
     with open(output_file, 'w', encoding='utf-8') as file:
         file.write(text)
   
-pdf_path = '../PDF Files/Muscle_Growth.pdf'
-output_file = '../TXT Files/Muscle_Growth.txt'
+pdf_path = '../PDF Files/'
+output_file = '../TXT Files/'
 extracted_text = text_from_pdf_with_pdfplumber1(pdf_path)
 write_to_file(extracted_text,output_file)
