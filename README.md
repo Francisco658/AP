@@ -60,3 +60,4 @@ The FitBot Project consists of developing a chatbot using Ollama LLM's and the i
 - [Ollama](https://ollama.ai/): A platform for running Large Language models locally.
 - [Chroma](https://docs.trychroma.com/): A vector database for storing and retrieving embeddings.
 - [PDFPlumber](https://pypi.org/project/PyPDF2/](https://pypi.org/project/pdfplumber/0.1.2/)): A Python library for reading and manipulating PDF files.
+- [Streamlit](https://streamlit.io): A Python Library to build Web Based Applications.
