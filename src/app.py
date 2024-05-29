@@ -45,31 +45,6 @@ def load_documents_into_database(llm_model_name:str, model_name: str, documents_
     
     return db
 
-def evalute(llm_model_name: str, db: Chroma):
-    accuracy_criteria = {
-    "accuracy": """
-        Score 1: The answer is completely unrelated to the reference.
-        Score 3: The answer has minor relevance but does not align with the reference.
-        Score 5: The answer has moderate relevance but contains inaccuracies.
-        Score 7: The answer aligns with the reference but has minor errors or omissions.
-        Score 10: The answer is completely accurate and aligns perfectly with the reference."""
-    }
-
-    evaluator = load_evaluator(
-        "labeled_score_string",
-        criteria=accuracy_criteria,
-        llm=Ollama(model=llm_model_name),
-    )
-
-    chat = getChatChain(Ollama(model=llm_model_name), db)
-    df = pd.read_csv("evaluate.csv")
-
-    for index,row in df.iterrows():
-        question = row['question']
-        answer = row['answer']
-        evaluation = evaluator.evaluate_strings(prediction=chat(question=question),reference=answer,input=question)
-        print(evaluation)
-
 def main(llm_model_name: str, embedding_model_name: str, documents_path: str) -> None:
     # Check to see if the models available, if not attempt to pull them
     try:
