@@ -1,7 +1,6 @@
 import streamlit as st
 import argparse
 import base64
-from streamlit.components.v1 import html
 from models import check_if_model_is_available
 from document_loader import load_documents
 from llm import getChatChain
